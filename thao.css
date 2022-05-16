@@ -1,0 +1,18 @@
+div{
+    
+    background: fixed;
+    background-image: url(D:\baitapcuathao\image\background1.jpg);
+   
+}
+.tieude{
+    position:absolute;
+    top:10px;
+}
+.slogan{
+    position:absolute;
+    top:50px;
+}
+.text{
+    position:absolute;
+    top:100px;
+}
