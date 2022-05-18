@@ -1,4 +1,4 @@
-div{
+.div1{
     
     background: fixed;
     background-image: url(D:\baitapcuathao\image\background1.jpg);
@@ -6,13 +6,155 @@ div{
 }
 .tieude{
     position:absolute;
-    top:10px;
+    top:50px;
+    left:600px;
+    color: rgb(244, 250, 250);
+    font-size: 45px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.thanhvien{
+    position:absolute;
+    top:280px;
+    left:890px;
+    color: rgb(244, 250, 250);
+    font-size: 30px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.gioithieu{
+    position:absolute;
+    top:275px;
+    left:290px;
+    color: rgb(244, 250, 250);
+    font-size: 30px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .slogan{
     position:absolute;
-    top:50px;
+    top:120px;
+    left:670;
+    color: rgb(244, 250, 250);
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .text{
     position:absolute;
-    top:100px;
+    left:90px;
+    top:340px;
+    color: rgb(244, 250, 250);
+    text-align: left;
+    width:37% ;
+}
+.congs{
+    position:absolute;
+    top:400;
+    left:800;
+}
+.cong{
+    position:absolute;
+    top:485;
+    left:820;
+}
+.huys{
+    position:absolute;
+    top:850;
+    left:800;
+}
+.huy{
+    position:absolute;
+    top:994;
+    left:820;
+}
+.kiens{
+    position:absolute;
+    top:400;
+    left:1150;
+}
+
+.kien{
+    position:absolute;
+    top:453;
+    left:1190;}
+
+.thaos{
+    position:absolute;
+    top:850;
+    left:1150;}
+
+    .thao{
+        position:absolute;
+        top:930;
+        left:1190;}
+    
+.nut1{
+    position:absolute;
+    top:700;
+    left:850;
+    background-color: rgb(114, 178, 189);
+    color: aliceblue;
+    border-width: 0px!important;
+    border-radius: 13px;
+    letter-spacing: 1px;
+    font-size: 20px;
+    padding-top:5px;
+    padding-bottom:5px;
+
+}
+
+.nut2{
+    position:absolute;
+    top:1153;
+    left:860;
+    background-color: rgb(114, 178, 189);
+    color: aliceblue;
+    border-width: 0px!important;
+    border-radius: 13px;
+    letter-spacing: 1px;
+    font-size: 20px;
+    padding-top:5px;
+    padding-bottom:5px;
+
+}
+
+.nut3{
+    position:absolute;
+    top:700;
+    left:1214;
+    background-color: rgb(114, 178, 189);
+    color: aliceblue;
+    border-width: 0px!important;
+    border-radius: 13px;
+    letter-spacing: 1px;
+    font-size: 20px;
+    padding-top:5px;
+    padding-bottom:5px;
+
+}
+
+.nut4{
+    position:absolute;
+    top:1153;
+    left:1210;
+    background-color: rgb(114, 178, 189);
+    color: aliceblue;
+    border-width: 0px!important;
+    border-radius: 13px;
+    letter-spacing: 1px;
+    font-size: 20px;
+    padding-top:5px;
+    padding-bottom:5px;
+
+}
+
+.nut1:hover{
+    background-color: brown;
+}
+
+.nut2:hover{
+    background-color: brown;
+}
+.nut3:hover{
+    background-color: brown;
+}
+.nut4:hover{
+    background-color: brown;
 }
