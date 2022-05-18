@@ -6,8 +6,8 @@
 }
 .tieude{
     position:absolute;
-    top:50px;
-    left:600px;
+    top:100px;
+    left:860px;
     color: rgb(244, 250, 250);
     font-size: 45px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -22,8 +22,8 @@
 }
 .slogan{
     position:absolute;
-    top:120px;
-    left:670;
+    top:200px;
+    left:920;
     color: rgb(244, 250, 250);
     font-size: 20px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -144,11 +144,109 @@
     background-color: brown;
 }
 
-.div2{
-    border:1px solid #ccc;
-            padding:100px 30px;
-            font-size:30px;
-            height: 24%;
-            background-image:url(https://khudulichhoakiengsadec.com.vn/wp-content/uploads/2021/03/co-chi-nhat-co-chi-nhat-55771.jpg) ;
-            background-repeat:repeat-x;
+.hoa{
+    position: absolute;
+    top:1350;
+}
+.mes{
+    position: absolute;
+    top:1390;
+    left:430;
+}
+
+.h1{
+    position: absolute;
+    left:530px;
+    top:1480px;
+    
+}
+.hoten input{
+    position: absolute;
+    left:530px;
+    top:1500px;
+    width: 15%;
+    resize: none;
+    font-size: 18px;
+    font-weight: 400;
+    color: #333;
+    border: none;
+    border-bottom: 1px solid #777;
+    outline: none;
+}
+
+.e2{
+    position: absolute;
+    left:530px;
+    top:1540px;
+    
+}
+.email input{
+    position: absolute;
+    left:530px;
+    top:1560px;
+    width: 15%;
+    resize: none;
+    font-size: 18px;
+    font-weight: 400;
+    color: #333;
+    border: none;
+    border-bottom: 1px solid #777;
+    outline: none;
+}
+
+.s3{
+    position: absolute;
+    left:530px;
+    top:1600px;
+    
+}
+.sdt input{
+    position: absolute;
+    left:530px;
+    top:1620px;
+    width: 15%;
+    resize: none;
+    font-size: 18px;
+    font-weight: 400;
+    color: #333;
+    border: none;
+    border-bottom: 1px solid #777;
+    outline: none;
+}
+
+.l4{
+    position: absolute;
+    left:860px;
+    top:1470px;
+    
+}
+.loinhan textarea{
+    position: absolute;
+    left:860px;
+    top:1500px;
+    width: 10%;
+    resize: none;
+    font-size: 18px;
+    font-weight: 400;
+    color: #333;
+    border: none;
+    border-bottom: 1px solid #777;
+    outline: none;
+}
+
+.nut input{
+    position: absolute;
+    left:900px;
+    top:1620px;
+    cursor: pointer;
+     background: #0f3959;
+     color: #fff;
+     border:none;
+     max-width: 250px;
+     padding: 12px;
+     width: 5%;
+}
+
+.nut input:hover{
+    background: brown;;
 }
