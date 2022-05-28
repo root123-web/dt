@@ -1,15 +1,79 @@
 <html>
     <head>
+        
         <link rel="stylesheet" href="thao.css">
-        <link href="https://fontawesome.com/" rel="stylesheet">
-     
+  
     </head>
     <body>
         <img class="nen" src="D:\baitapcuathao\image\background1.jpg">
         <div class="div1"><h1 class="tieude">Nhóm 2 - PT Lập Trình</h1>
             <h1 class="thanhvien">Danh sách các thành viên</h1>
         <p class="slogan"><em>"I can’t, you can’t, but we can." </em></p>
+
+        <div class="slideshow-container">
+             
+          <div class="mySlides fade">
+            <img src="D:\baitapcuathao\image\nho1.jpg" style="width:100%">
+            
+          </div>
+         
+          <div class="mySlides fade">
+            <img src="D:\baitapcuathao\image\nho4.jpg" style="width:100%">
+            
+          </div>
+         
+          <div class="mySlides fade">
+            <img src="D:\baitapcuathao\image\nho3.jpg" style="width:100%">
+          
+          </div>
+        </div>
+
         
+      </div>
+        <br>
+         
+        <div style="text-align:center">
+          <span class="dot" onclick="currentSlide(0)"></span> 
+          <span class="dot" onclick="currentSlide(1)"></span> 
+          <span class="dot" onclick="currentSlide(2)"></span> 
+          
+        </div>
+
+        <script>
+          //khai báo biến slideIndex đại diện cho slide hiện tại
+          var slideIndex;
+          // KHai bào hàm hiển thị slide
+          function showSlides() {
+              var i;
+              var slides = document.getElementsByClassName("mySlides");
+              var dots = document.getElementsByClassName("dot");
+              for (i = 0; i < slides.length; i++) {
+                 slides[i].style.display = "none";  
+              }
+              for (i = 0; i < dots.length; i++) {
+                  dots[i].className = dots[i].className.replace(" active", "");
+              }
+         
+              slides[slideIndex].style.display = "block";  
+              dots[slideIndex].className += " active";
+              //chuyển đến slide tiếp theo
+              slideIndex++;
+              //nếu đang ở slide cuối cùng thì chuyển về slide đầu
+              if (slideIndex > slides.length - 1) {
+                slideIndex = 0
+              }    
+              //tự động chuyển đổi slide sau 5s
+              setTimeout(showSlides, 3000);
+          }
+          //mặc định hiển thị slide đầu tiên 
+          showSlides(slideIndex = 0);
+         
+         
+          function currentSlide(n) {
+            showSlides(slideIndex = n);
+          }
+        </script>
+    
         <img class="congs" src="D:\baitapcuathao\image\img6.jpg">
         <img class="cong" src="D:\baitapcuathao\image\công.jpg">
         <img class="huys" src="D:\baitapcuathao\image\img5.jpg">
@@ -33,7 +97,8 @@
     </div>
 
     <div class="div2">
-        <img  class="hoa" src="D:\baitapcuathao\image\1.jpg">
+        <img  class="hoa1" src="D:\baitapcuathao\image\1.jpg">
+        
         <img  class="mes" src="D:\baitapcuathao\image\img1.jpg">
         <img  src="D:\baitapcuathao\image\2.jpg">
         
@@ -58,6 +123,9 @@
             <div class="nut">
                 <input type="submit" value="Gửi">
             </div>
+
+          
+   
      </div>
 
     
